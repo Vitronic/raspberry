@@ -1,0 +1,1212 @@
+1.2
+lxde-pi-applications.menu+hidden
+16
+D/home/pi/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/raspi-ui-overrides/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/pi/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/raspi-ui-overrides/applications
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/pi/.config/menus/applications-merged
+F/home/pi/.config/menus/lxde-pi-applications.menu
+F/etc/xdg/menus/lxde-pi-applications.menu
+
++Applications
+Anwendungen
+Anwendungen
+applications-other
+lxde-menu-applications.directory
+3
+0
++Development
+Entwicklung
+Werkzeuge zur Software-Entwicklung
+applications-development
+lxde-development.directory
+3
+0
+-bluej.desktop
+BlueJ Java IDE
+A simple powerful Java IDE
+bluej
+
+8
+
+bluej
+0
+0
+bluej
+
+Application;Development
+
+-greenfoot.desktop
+Greenfoot Java IDE
+A simple Java IDE and animation framework
+greenfoot
+
+8
+
+greenfoot
+0
+0
+greenfoot
+
+Application;Development
+
+-idle-python2.7.desktop
+IDLE (using Python-2.7)
+Integrated Development Environment for Python (using Python-2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+8
+
+/usr/bin/idle-python2.7
+6
+0
+
+
+Application;Development
+
+-idle-python3.2.desktop
+IDLE (using Python-3.2)
+Integrated Development Environment for Python (using Python-3.2)
+/usr/share/pixmaps/python3.2.xpm
+
+8
+
+/usr/bin/idle-python3.2
+6
+0
+
+
+Application;Development
+
+-idle-python3.4.desktop
+IDLE (using Python-3.4)
+Integrated Development Environment for Python (using Python-3.4)
+/usr/share/pixmaps/python3.4.xpm
+
+8
+
+/usr/bin/idle-python3.4
+6
+0
+
+
+Application;Development
+
+-wolfram-mathematica.desktop
+Mathematica
+Technical Computing System
+wolfram-mathematica
+
+8
+
+mathematica %F
+2
+0
+mathematica
+
+Application;Development
+
+-Node-RED.desktop
+Node-RED
+Flow based application composer for the Internet of Things
+/usr/share/icons/gnome/scalable/apps/node-red-icon.svg
+
+9
+
+node-red-start
+1
+0
+
+
+Development
+
+-idle.desktop
+Python 2 (IDLE)
+Integrated development environment for Python 2
+/usr/share/pixmaps/idle.xpm
+
+8
+
+/usr/bin/idle
+2
+0
+/usr/bin/idle
+
+Application;Development
+
+-idle3.desktop
+Python 3 (IDLE)
+Integrated development environment for Python 3
+/usr/share/pixmaps/idle3.xpm
+
+8
+
+/usr/bin/idle3
+2
+0
+/usr/bin/idle3
+
+Application;Development
+
+-python2.7.desktop
+Python (v2.7)
+Python Interpreter (v2.7)
+/usr/share/pixmaps/python2.7.xpm
+
+9
+
+/usr/bin/python2.7
+7
+0
+
+
+Development
+
+-python3.4.desktop
+Python (v3.4)
+Python Interpreter (v3.4)
+/usr/share/pixmaps/python3.4.xpm
+
+9
+
+/usr/bin/python3.4
+7
+0
+
+
+Development
+
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+8
+
+scratch
+0
+0
+scratch
+
+Application;Development
+
+-sonic-pi.desktop
+Sonic Pi
+Learn programming and computer science while creating music
+/usr/share/pixmaps/sonic-pi.png
+
+9
+
+sonic-pi
+0
+0
+
+
+Application;Development
+
+-squeak.desktop
+Squeak
+Programmier- und Multimediaentwicklungsumgebung
+/usr/share/pixmaps/squeak.png
+
+8
+
+squeak
+4
+0
+squeak
+
+Application;Education;Development
+
+-wolfram-language.desktop
+Wolfram
+Technical Programming Environment
+wolfram-language
+
+8
+
+x-terminal-emulator -t "Wolfram Language" -e wolfram
+2
+0
+wolfram
+
+Application;Development
+
+
++Office
+Büro
+Büroanwendungen
+applications-office
+lxde-office.directory
+3
+0
+-evince.desktop
+Dokumentenbetrachter
+Mehrseitige Dokumente anzeigen
+evince
+
+8
+
+evince %U
+6
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,Dokument,Präsentation
+-libreoffice-startcenter.desktop
+LibreOffice
+Die produktive Bürosoftware ist kompatibel zu dem offenen und standardisierten OpenDocument Format (ODF). Unterstützt von The Document Foundation.
+libreoffice-startcenter
+
+8
+Office
+libreoffice %U
+6
+0
+
+
+Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other
+
+-libreoffice-base.desktop
+LibreOffice Base
+Verwalten von Datenbanken, Erstellen von Abfragen und Berichten - Base macht's möglich.
+libreoffice-base
+
+9
+Datenbankentwicklung
+libreoffice --base %U
+2
+0
+
+
+Office;Database
+Data,SQL
+-libreoffice-calc.desktop
+LibreOffice Calc
+Berechnungen ausführen, Informationen analysieren und Listen in Tabellenform verwalten - Calc macht's möglich.
+libreoffice-calc
+
+9
+Tabellenkalkulation
+libreoffice --calc %U
+2
+0
+
+
+Office;Spreadsheet
+Accounting,Stats,OpenDocument Spreadsheet,Chart,Microsoft Excel,Microsoft Works,OpenOffice Calc,ods,xls,xlsx
+-libreoffice-draw.desktop
+LibreOffice Draw
+Zeichnungen erstellen und bearbeiten, Flussdiagramme entwerfen und Logos kreieren - Draw macht's möglich.
+libreoffice-draw
+
+8
+Zeichenprogramm
+libreoffice --draw %U
+2
+0
+libreoffice
+
+Office;FlowChart;2DGraphics;VectorGraphics
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Corel Draw,cdr,odg,svg
+-libreoffice-impress.desktop
+LibreOffice Impress
+Erstellen und bearbeiten von Präsentationen für Dia-Vorführungen, Meetings und Web-Auftritte mithilfe von Impress.
+libreoffice-impress
+
+9
+Präsentation
+libreoffice --impress %U
+2
+0
+
+
+Office;Presentation
+Slideshow,Slides,OpenDocument Presentation,Microsoft PowerPoint,Microsoft Works,OpenOffice Impress,odp,ppt,pptx
+-libreoffice-math.desktop
+LibreOffice Math
+Wissenschaftliche Formeln setzen und bearbeiten - Math macht's möglich.
+libreoffice-math
+
+8
+Formeleditor
+libreoffice --math %U
+2
+0
+libreoffice
+
+Office;Spreadsheet;Science;Math
+Equation,OpenDocument Formula,Formula,odf,MathML
+-libreoffice-writer.desktop
+LibreOffice Writer
+Erstellen und bearbeiten von Text und Grafiken in Briefen, Reports, Dokumenten und Web-Seiten - Writer macht's möglich.
+libreoffice-writer
+
+9
+Textverarbeitung
+libreoffice --writer %U
+2
+0
+
+
+Office;WordProcessor
+Text,Letter,Fax,Document,OpenDocument Text,Microsoft Word,Microsoft Works,Lotus WordPro,OpenOffice Writer,CV,odt,doc,docx,rtf
+
++Internet
+Internet
+Programme, um Internet-Dienste wie E-Mail oder das WWW zu nutzen
+applications-internet
+lxde-network.directory
+3
+0
+-claws-mail.desktop
+Claws Mail
+Lightweight and Fast GTK+ based Mail Client
+claws-mail
+
+9
+E-mail client
+claws-mail %u
+2
+0
+
+
+Network;Email
+lightweight,fast,gui,extensible,plugin,pop,pop3,imap,imap4,nntp,news
+-dillo.desktop
+Dillo
+Lightweight browser
+dillo
+
+8
+Web Browser
+dillo
+4
+0
+dillo
+
+Application;Network
+
+-epiphany-browser.desktop
+Epiphany Webbrowser
+Im Web surfen
+web-browser
+
+8
+Webbrowser
+epiphany-browser %U
+2
+0
+epiphany-browser
+
+Network;GNOME;GTK;WebBrowser
+Web,Browser,Internet
+-epiphany-newtab.desktop
+Epiphany Webbrowser
+Im Web surfen
+web-browser
+
+8
+Webbrowser
+epiphany-browser -n %U
+6
+0
+epiphany-browser
+
+Network;GNOME;GTK;WebBrowser
+Web,Browser,Internet
+-epiphany.desktop
+Internet
+Im Internet surfen
+web-browser
+
+8
+Internet-Browser
+epiphany %U
+6
+0
+
+
+Network;GNOME;GTK;WebBrowser
+Netz,Browser,Internet
+-netsurf-gtk.desktop
+NetSurf Web Browser
+Browse the World Wide Web
+netsurf.png
+
+8
+Web Browser
+netsurf-gtk %u
+6
+0
+netsurf-gtk
+
+Network
+
+-pistore.desktop
+Pi Store
+Download software for your Raspberry Pi
+/usr/share/indiecity/pistore/clienticon.xpm
+
+8
+
+pistore-desktop
+2
+0
+pistore-desktop
+
+Application;Network
+
+-raspi_resources.desktop
+Raspberry Pi Resources
+
+/usr/share/raspberrypi-artwork/raspitr.png
+
+8
+
+xdg-open http://www.raspberrypi.org/resources/
+2
+0
+
+
+Application;Network
+
+-magpi.desktop
+The Magpi
+Link to downloads of The Magpi magazine
+/usr/share/raspberrypi-artwork/magpi.png
+
+8
+
+xdg-open http://www.raspberrypi.org/magpi
+0
+0
+
+
+Network
+
+-lxde-x-www-browser.desktop
+Web Browser
+
+web-browser
+
+8
+X Web Browser
+/usr/bin/x-www-browser %u
+4
+0
+/usr/bin/x-www-browser
+
+GTK;WebBrowser;Network
+
+
++Games
+Spiele
+Spiel und Spaß
+applications-games
+lxde-game.directory
+3
+0
+-minecraft-pi.desktop
+Minecraft Pi
+Fun with Blocks
+/usr/share/pixmaps/minecraft-pi.png
+
+8
+
+minecraft-pi
+2
+0
+minecraft-pi
+
+Application;Game
+
+-python-games.desktop
+Python Games
+Examples of games written in Python
+/usr/share/pixmaps/python.xpm
+
+8
+
+sh -c $HOME/python_games/launcher.sh
+2
+0
+/home/pi/python_games/launcher.sh
+
+Application;Game
+
+
++Other
+Sonstige
+Anwendungen, die in keine andere Kategorie eingeordnet werden können
+applications-other
+lxde-other.directory
+3
+0
+-lxde-logout.desktop
+Abmelden
+Abmelden, herunterfahren oder neu starten
+gnome-logout
+
+8
+
+lxde-logout
+4
+0
+lxde-logout
+
+
+
+-libreoffice-xsltfilter.desktop
+LibreOffice XSLT based filters
+
+
+
+9
+XSLT basierte Filter
+libreoffice %U
+6
+0
+
+
+
+
+-mono-runtime-common.desktop
+Mono Runtime
+
+mono-runtime-common
+
+8
+
+mono
+4
+0
+mono
+
+
+
+-mono-runtime-terminal.desktop
+Mono Runtime (Terminal)
+
+mono-runtime-common
+
+8
+
+mono
+5
+0
+mono
+
+
+
+-lxde-screenlock.desktop
+ScreenLock
+Lock your screen
+system-lock-screen
+
+9
+
+lxlock
+4
+0
+lxlock
+
+
+
+
++Accessories
+Zubehör
+Desktop-Zubehör
+applications-accessories
+lxde-utility.directory
+3
+0
+-gpicview.desktop
+Bildbetrachter
+Bilder einfach betrachten
+gpicview
+
+8
+Bildbetrachter
+gpicview %f
+2
+0
+gpicview
+
+Graphics;Utility;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+
+-galculator.desktop
+Calculator
+Ausführen von einfachen und wissenschaftlichen Berechnungen
+galculator
+
+8
+
+galculator
+2
+0
+galculator
+
+Utility
+
+-pcmanfm.desktop
+Dateimanager
+Das Dateisystem durchsuchen und Dateien verwalten
+system-file-manager
+
+8
+Dateimanager
+pcmanfm %U
+2
+0
+pcmanfm
+
+FileManager;Utility;Core;GTK
+
+-lxterminal.desktop
+LXTerminal
+Befehlszeile verwenden
+lxterminal
+
+8
+Terminal
+lxterminal
+2
+0
+lxterminal
+
+GTK;Utility;TerminalEmulator
+
+-xpdf.desktop
+PDF Viewer
+Viewer for PDF files
+xpdf
+
+8
+PDF viewer
+xpdf
+0
+0
+xpdf
+
+Viewer;Utility
+
+-gksu.desktop
+Root Terminal
+Opens a terminal as the root user, using gksu to ask for the password
+gksu-root-terminal
+
+8
+
+gksu /usr/bin/x-terminal-emulator
+6
+0
+gksu
+
+GTK;Utility;TerminalEmulator
+
+-lxtask.desktop
+Taskmanager
+Laufende Prozesse verwalten
+utilities-system-monitor
+
+8
+Prozessverwaltung
+lxtask
+2
+0
+lxtask
+
+GTK;Utility;Monitor
+
+-leafpad.desktop
+Text Editor
+Einfacher Texteditor
+leafpad
+
+8
+
+leafpad %f
+0
+0
+leafpad
+
+GTK;Utility;TextEditor
+
+-vim.desktop
+Vim
+Textdateien bearbeiten
+vim
+
+9
+Texteditor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+
+-xarchiver.desktop
+Xarchiver
+Ein auf GTK+2 basierender Archivmanager
+xarchiver.png
+
+8
+Archivmanager
+xarchiver
+2
+0
+xarchiver
+
+GTK;Archiving;Utility
+
+
++Universal Access
+Barrierefreiheit
+Einstellungen zur Barrierefreiheit
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+3
+4
+
++Education
+Bildung
+
+applications-science
+lxde-education.directory
+3
+0
+-squeak.desktop
+Squeak
+Programmier- und Multimediaentwicklungsumgebung
+/usr/share/pixmaps/squeak.png
+
+8
+
+squeak
+4
+0
+squeak
+
+Application;Education;Development
+
+
++Graphics
+Grafik
+Anwendungen zur Grafikbearbeitung
+applications-graphics
+lxde-graphics.directory
+3
+0
+-evince.desktop
+Dokumentenbetrachter
+Mehrseitige Dokumente anzeigen
+evince
+
+8
+
+evince %U
+6
+0
+evince
+
+GNOME;GTK;Office;Viewer;Graphics;2DGraphics;VectorGraphics
+pdf,ps,postscript,dvi,xps,djvu,tiff,Dokument,Präsentation
+
++System
+Systemwerkzeuge
+Systemkonfiguration und -überwachung
+applications-system
+lxde-system-tools.directory
+3
+0
+-pi-gpk-update-viewer.desktop
+Paketaktualisierung
+Auf dem System installierte Software aktualisieren
+system-software-update
+
+9
+
+pi-gpk-update-viewer
+6
+-5
+
+
+GNOME;GTK;System
+
+-pi-gpk-install-local-file.desktop
+Paketinstallation
+Ausgewählte Pakete auf dem System installieren
+system-software-install
+
+9
+
+pi-gpk-install-local-file %F
+6
+0
+
+
+System
+
+-pi-gpk-log.desktop
+Paketprotokoll
+Vorherige Paketmanagement-Aufgaben anzeigen
+gpk-log
+
+9
+
+pi-gpk-log
+6
+0
+
+
+GNOME;GTK;System
+
+-hplj1020.desktop
+Reactivate HP LaserJet 1018/1020 after reloading paper
+Click the button in this program when your printer ran out of paper and you have refilled the paper
+/usr/share/pixmaps/hplj1020_icon.png
+
+8
+
+/usr/share/foo2zjs/hplj10xx_gui.tcl
+6
+0
+
+
+System
+
+-pi-gpk-dbus-service.desktop
+Software-Installation
+Ausgewählte Software auf dem System installieren
+system-software-install
+
+9
+
+pi-gpk-dbus-service
+6
+0
+
+
+System
+
+-lxde-x-terminal-emulator.desktop
+Terminal emulator
+Terminal Emulator
+terminal
+
+8
+Terminal Emulator
+/usr/bin/x-terminal-emulator
+6
+0
+/usr/bin/x-terminal-emulator
+
+System;TerminalEmulator;Utility
+
+
++Multimedia
+Unterhaltungsmedien
+Multimedia-Menü
+applications-multimedia
+lxde-audio-video.directory
+3
+0
+-qjackctl.desktop
+QjackCtl
+Grafisches Werkzeug zur Steuerung des JACK-Audio-Systems
+qjackctl
+
+8
+JACK-Steuerung
+/usr/bin/qjackctl
+4
+0
+
+
+Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt
+audio,sound,jackd
+-SuperColliderIDE.desktop
+SuperCollider IDE
+
+sc_ide
+
+8
+SuperCollider IDE
+scide %f
+4
+0
+
+
+Application;Multimedia;Audio;AudioVideo
+
+
+-
++Help
+Help
+Reference material
+gnome-help
+lxde-help.directory
+2
+0
+-debian-reference-common.desktop
+Debian-Referenz
+Debian Reference Guide
+debian-reference.png
+
+8
+
+debian-reference
+0
+0
+debian-reference
+
+Help
+
+-help.desktop
+Raspberry Pi Help
+Link to help pages
+/usr/share/raspberrypi-artwork/raspitr.png
+
+8
+
+xdg-open http://www.raspberrypi.org/help
+0
+0
+
+
+Help
+
+
+-
++DesktopSettings
+Einstellungen
+Persönliche Einstellungen
+preferences-desktop
+lxde-settings.directory
+3
+0
+-pi-packages.desktop
+Add / Remove Software
+Auf dem System installierte Software aktualisieren oder neue Software hinzufügen
+system-software-install
+
+9
+
+pi-packages
+2
+-5
+
+
+GNOME;GTK;System;Settings;PackageManager
+Updates,Aktualisierungen,Upgrades,Quellen,Softwarequellen,Einstellungen,Installieren,Store
+-pipanel.desktop
+Appearance Settings
+Configure the appearance of the desktop and windows
+preferences-desktop-theme
+
+9
+Appearance Settings
+pipanel
+2
+-11
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-pimixer.desktop
+Audio Device Settings
+Settings for internal and external audio devices
+multimedia-volume-control
+
+9
+
+pimixer
+2
+0
+
+
+Settings
+
+-lxrandr.desktop
+Bildschirmeinstellungen
+Die Bildschirmauflösung und externe Monitore konfigurieren
+display
+
+8
+
+lxrandr
+4
+0
+
+
+GTK;Settings;HardwareSettings
+
+-lxsession-default-apps.desktop
+Default applications for LXSession
+Change the default applications on LXDE
+xfwm4
+
+8
+
+lxsession-default-apps
+4
+-15
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-pcmanfm-desktop-pref.desktop
+Desktop Einstellungen
+Hintergrundbilder und Verhalten der Desktopverwaltung ändern
+user-desktop
+
+8
+
+pcmanfm --desktop-pref
+6
+-15
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+xfwm4
+
+8
+
+lxsession-edit
+4
+-15
+lxsession-edit
+
+Settings;DesktopSettings;X-LXDE-Settings
+
+-lxappearance.desktop
+Erscheinungsbild anpassen
+Das Erscheinungsbild Ihrer Arbeitsumgebung und Anwendungen anpassen
+preferences-desktop-theme
+
+8
+Erscheinungsbild anpassen
+lxappearance
+6
+-11
+lxappearance
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-lxkeymap.desktop
+Lxkeymap
+Lxkeymap application
+/usr/share/lxkeymap/media/icon.png
+
+8
+
+lxkeymap
+4
+0
+
+
+Settings
+
+-alacarte.desktop
+Main Menu Editor
+Anwendungen dem Hauptmenü hinzufügen oder löschen
+alacarte
+
+9
+
+alacarte
+2
+-5
+
+
+GNOME;Settings;DesktopSettings
+
+-openjdk-7-policytool.desktop
+OpenJDK Java 7 Policy Tool
+OpenJDK Java 7 Policy Tool
+openjdk-7
+
+8
+
+/usr/bin/policytool
+4
+0
+
+
+Settings
+
+-pi-gpk-prefs.desktop
+Paketquellen
+Paketquellen aktivieren oder deaktivieren
+gpk-prefs
+
+9
+
+pi-gpk-prefs
+6
+-5
+
+
+Settings;X-GNOME-SystemSettings
+
+-rc_gui.desktop
+Raspberry Pi Configuration
+Configure Raspberry Pi system
+/usr/share/raspberrypi-artwork/raspitr.png
+
+9
+Raspberry Pi Configuration
+rc_gui
+2
+-11
+
+
+Settings;DesktopSettings;GTK;X-LXDE-Settings
+
+-lxinput.desktop
+Tastatur und Maus
+Maus, Tastatur und andere Eingabegeräte konfigurieren
+preferences-desktop-peripherals
+
+9
+
+lxinput
+2
+-15
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+
+-wpa_gui.desktop
+WiFi Configuration
+WiFi configuration utility
+wpa_gui
+
+8
+wpa_supplicant user interface
+/usr/sbin/wpa_gui
+4
+0
+/usr/sbin/wpa_gui
+
+Settings
+
+
+
